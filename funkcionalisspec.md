@@ -74,6 +74,14 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
   2. Megjelenik cím, rövid kivonat és dátum.
 - **Utófeltétel:** Felhasználó látja a hírek listáját.
 
+### Use-case 2: Hír részletes megtekintése
+- **Szereplő:** Felhasználó
+- **Előfeltétel:** Hírek listája megjelenik
+- **Lépések:**
+  1. Felhasználó rákattint a cikk címére.
+  2. Részletes nézet betöltődik: teljes szöveg, dátum, kategória.
+- **Utófeltétel:** Felhasználó elolvashatja a cikket.
+
 ## 7. Képernyőtervek (leírás szöveges formában)
 
 
