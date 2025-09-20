@@ -82,6 +82,14 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
   2. Részletes nézet betöltődik: teljes szöveg, dátum, kategória.
 - **Utófeltétel:** Felhasználó elolvashatja a cikket.
 
+### Use-case 3: Keresés kulcsszó alapján
+- **Szereplő:** Felhasználó
+- **Előfeltétel:** Felhasználó a főoldalon van
+- **Lépések:**
+  1. Felhasználó beír egy kulcsszót a keresőmezőbe.
+  2. A rendszer visszaadja a releváns találatokat.
+- **Utófeltétel:** Felhasználó megkapja a keresett híreket, vagy „Nincs találat” üzenetet.
+
 ## 7. Képernyőtervek (leírás szöveges formában)
 
 
