@@ -146,6 +146,11 @@ flowchart TD
   Logic --> Data[JS objektumok]
 ```
 
+## 8.2 Biztonsági funkciók
+
+- Csak olvasható tartalom  
+- Nincs adatbevitel  
+
 ## 9. Adatbázis terv
 
 
