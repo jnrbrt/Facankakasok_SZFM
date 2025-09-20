@@ -26,7 +26,13 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
-
+- Hírek előállítása megtörténik, de nincs egységes, digitális publikálási csatorna.
+- A szervezet belsőleg rendelkezik a hírek tartalmával, de nem nyilvános.
+- A hírek tárolása nem szabványos, így a hozzáférés nem átlátható.
+- Az érdeklődők nem tudnak központi helyen, rendszerezett formában híreket olvasni.
+- A hírek frissítése lassú, és nincs egységes nyilvántartás a korábbi cikkekről.
+- A jelenlegi folyamat nem támogatja a gyors keresést, szűrést vagy a kategóriák szerinti navigációt.
+- A felhasználók számára a hírek elérése bizonytalan és nem egységes felületen történik.
 
 ## 4. Igényelt üzleti folyamatok modellje
 
