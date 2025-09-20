@@ -82,6 +82,16 @@ Felhasználó --> (Lapozás)
 - `index.html` – főoldali lista  
 - `article.html` – részletes nézet  
 
+### 5.4 Menü hierarchia
+
+```mermaid
+flowchart TD
+  Home[Főoldal] --> News[Hírek]
+  Home --> Filter[Kategóriák]
+  Home --> Search[Kereső]
+  News --> Detail[Cikk részletei]
+```
+
 ## 6. Fizikai környezet
 
 
