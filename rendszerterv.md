@@ -123,6 +123,10 @@ classDiagram
   Hir --> Kategoria
 ```
 
+## 7.1 Domain specifikáció
+
+Hírek, kategóriák és metaadatok
+
 ## 8. Architekturális terv
 
 
