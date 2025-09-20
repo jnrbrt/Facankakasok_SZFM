@@ -21,7 +21,11 @@ Az MVP verzióban kizárólag a hírmegjelenítés és -böngészés funkciói s
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
-
+- A hírek előállítása megtörténik, de jelenleg nincs egységes, digitális publikálási csatorna.
+- A szervezet belsőleg rendelkezik a hírek tartalmával, de ezeket nem teszi nyilvánosan elérhetővé.
+- A hírek tárolása nem szabványos, így a hozzáférés nem átlátható.
+- Az érdeklődők nem tudnak központi helyen, rendszerezett formában híreket olvasni.
+- A hírek frissítése lassú, és nincs egységes nyilvántartás a korábbi cikkekről.
 
 ## 4. Igényelt üzleti folyamatok modellje
 
