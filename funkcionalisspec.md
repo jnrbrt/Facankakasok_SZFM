@@ -57,6 +57,13 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 - Lapozás nagy elemszám esetén.
 - Hibakezelés: „Nincs találat” és 404 hiba.
 
+### Nem funkcionális követelmények
+- Egyszerű, letisztult felület.
+- Gyors válaszidő az alapvető műveleteknél.
+- Stabil és folyamatos működés.
+- Alapvető adatbiztonsági előírások betartása.
+- Kódolási szabványok és alapvető webes kompatibilitás betartása.
+
 ## 6. Használati esetek (Use-case)
 
 
