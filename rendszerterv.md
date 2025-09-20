@@ -92,6 +92,11 @@ flowchart TD
   News --> Detail[Cikk részletei]
 ```
 
+### 5.5 Képernyőtervek
+
+- Főoldal: hírek listája, kategória szűrő, keresőmező  
+- Részletes cikk nézet: cím, teljes szöveg, dátum, kategória, vissza gomb  
+
 ## 6. Fizikai környezet
 
 
