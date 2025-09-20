@@ -60,7 +60,10 @@ flowchart TD
 
 ## 5. Funkcionális terv
 
+### 5.1 Rendszer szereplők
 
+- Felhasználó  
+- Rendszer  
 
 ## 6. Fizikai környezet
 
