@@ -65,6 +65,18 @@ flowchart TD
 - Felhasználó  
 - Rendszer  
 
+### 5.2 Használati esetek
+
+```mermaid
+usecaseDiagram
+actor Felhasználó
+Felhasználó --> (Hírek listázása)
+Felhasználó --> (Keresés)
+Felhasználó --> (Kategória választás)
+Felhasználó --> (Részletes nézet)
+Felhasználó --> (Lapozás)
+```
+
 ## 6. Fizikai környezet
 
 
