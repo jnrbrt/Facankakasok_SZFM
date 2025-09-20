@@ -11,7 +11,13 @@ A felhasználók számára nem áll rendelkezésre egyszerű, áttekinthető hí
 
 ## 2. Vágyálomrendszer leírása
 
-
+A tervezett rendszer egy egyszerű webes hírportál, amely lehetővé teszi a hírek közzétételét és rendszerezett megjelenítését.
+A felhasználó a főoldalon azonnal látja a legfrissebb híreket, időrendben rendezve, rövid kivonattal együtt.
+A hírek kategóriákhoz tartoznak, így a felhasználó szűrhet adott témákra, például sport, politika vagy technológia.
+A kulcsszavas keresés lehetővé teszi, hogy a felhasználó gyorsan megtalálja a számára releváns híreket a címekben és a teljes szövegben.
+Egy hír címére kattintva a felhasználó eléri a részletes nézetet, ahol megjelenik a teljes szöveg, a dátum és a kategória.
+A rendszer egyszerű, letisztult felülettel rendelkezik, amely a navigációt és a tartalom gyors elérését támogatja.
+Az MVP verzióban kizárólag a hírmegjelenítés és -böngészés funkciói szerepelnek, a regisztráció, hozzászólás vagy egyéb interakciók nem elérhetők.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
