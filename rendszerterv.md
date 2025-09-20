@@ -136,7 +136,15 @@ Hírek, kategóriák és metaadatok
 
 ## 8. Architekturális terv
 
+### 8.1 Tervezési minta
 
+Rétegzett architektúra: UI (HTML/CSS), logika (JS), adat (JS objektumok)
+
+```mermaid
+flowchart TD
+  UI[HTML + CSS] --> Logic[JS logika]
+  Logic --> Data[JS objektumok]
+```
 
 ## 9. Adatbázis terv
 
