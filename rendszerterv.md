@@ -107,7 +107,21 @@ flowchart TD
 
 ## 7. Absztrakt domain modell
 
- 
+ ```mermaid
+classDiagram
+  class Hir {
+    +cim
+    +kivonat
+    +tartalom
+    +datum
+    +kategoria
+  }
+  class Kategoria {
+    +id
+    +nev
+  }
+  Hir --> Kategoria
+```
 
 ## 8. Architekturális terv
 
