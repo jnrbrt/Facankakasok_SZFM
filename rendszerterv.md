@@ -36,7 +36,7 @@ flowchart TD
   D --> E
   E --> F[Lapozás]
 ```
-## 3.3 Üzleti entitások
+### 3.3 Üzleti entitások
 
 - **Hír:** cím, kivonat, szöveg, dátum, kategória  
 - **Kategória:** azonosító, név  
