@@ -29,7 +29,15 @@ Az MVP verzióban kizárólag a hírmegjelenítés és -böngészés funkciói s
 
 ## 4. Igényelt üzleti folyamatok modellje
 
-
+- A felhasználó megnyitja az **Egyszerű Hírportál** főoldalát.
+- A rendszer időrendi sorrendben listázza a híreket, rövid kivonattal.
+- A felhasználó kiválaszthat kategóriát, és a rendszer csak az adott témakörhöz tartozó híreket mutatja.
+- A felhasználó kulcsszó alapján keresést indíthat, amely csak releváns találatokat ad vissza.
+- A felhasználó rákattint egy cikk címére, és megnyitja a részletes nézetet.
+- A részletes nézetben a teljes szöveg, dátum és kategória látható.
+- Ha sok hír van, a rendszer lapozási lehetőséget biztosít, hogy a felhasználó oldalanként böngészhessen.
+- A rendszer hibakezelést biztosít, például „Nincs találat” üzenet a keresésnél, vagy hibaüzenet nem elérhető cikk esetén.
+- A működés egyszerű és áttekinthető, a felhasználó könnyen eligazodik az oldalon.
 
 ## 5. Követelménylista
 
