@@ -20,7 +20,22 @@ VS Code, Git, Chrome/Firefox fejlesztői eszközök
 
 ## 3. Üzleti folyamatok modellje
 
+### 3.1 Üzleti szereplők
 
+- **Felhasználó** – híroldal látogatója  
+- **Rendszer** – hírek megjelenítése, keresés és szűrés  
+
+### 3.2 Üzleti folyamatok
+
+```mermaid
+flowchart TD
+  A[Főoldal] --> B[Hírek listázása]
+  B --> C[Kategória szűrés]
+  B --> D[Keresés]
+  C --> E[Részletes nézet]
+  D --> E
+  E --> F[Lapozás]
+```
 
 ## 4. Követelmények
 
