@@ -99,7 +99,11 @@ flowchart TD
 
 ## 6. Fizikai környezet
 
+### 6.1 Fizikai alrendszerek
 
+- HTML réteg  
+- CSS megjelenítés  
+- JS logika  
 
 ## 7. Absztrakt domain modell
 
