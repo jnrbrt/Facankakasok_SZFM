@@ -12,7 +12,17 @@ A meglévő folyamat lassú, a hírek frissítése nem automatizált, és nem bi
 
 ## 2. Vágyálomrendszer leírása
 
+A cél egy egyszerű, webes hírportál létrehozása, amely:  
 
+- lehetővé teszi a hírek közzétételét és rendszerezett megjelenítését,
+- a főoldalon azonnal mutatja a legfrissebb híreket időrendben rövid kivonattal,
+- biztosítja a hírek kategóriák szerinti szűrését,
+- lehetővé teszi kulcsszavas keresést címben és szövegben,
+- részletes nézetet biztosít a teljes cikk, a dátum és a kategória megjelenítésével.
+
+A felület egyszerű, áttekinthető, és kizárólag az MVP funkciókat tartalmazza.
+Az MVP nem tartalmaz regisztrációt, hozzászólásokat, felhasználói interakciókat vagy reklámokat.
+A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció közvetlenül a hírek olvasását szolgálja.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
