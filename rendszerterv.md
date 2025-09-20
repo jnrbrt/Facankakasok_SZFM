@@ -77,6 +77,11 @@ Felhasználó --> (Részletes nézet)
 Felhasználó --> (Lapozás)
 ```
 
+### 5.3 Határ osztályok
+
+- `index.html` – főoldali lista  
+- `article.html` – részletes nézet  
+
 ## 6. Fizikai környezet
 
 
