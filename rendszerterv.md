@@ -2,7 +2,8 @@
 
 ## 1. A rendszer célja
 
-
+A rendszer célja egy egyszerű webes hírportál létrehozása, amely a hírek közzétételére és átlátható böngészésére szolgál.  
+A felhasználók gyorsan és egyszerűen érhetik el a legfrissebb híreket, kategória és kulcsszó alapján kereshetnek.
 
 ## 2. Projekt terv
 
