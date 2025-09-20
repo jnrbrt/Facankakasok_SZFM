@@ -66,7 +66,13 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 
 ## 6. Használati esetek (Use-case)
 
-
+### Use-case 1: Hírek listázása főoldalon
+- **Szereplő:** Felhasználó
+- **Előfeltétel:** Felhasználó megnyitotta a főoldalt
+- **Lépések:**
+  1. A rendszer betölti az utolsó 10 hírt.
+  2. Megjelenik cím, rövid kivonat és dátum.
+- **Utófeltétel:** Felhasználó látja a hírek listáját.
 
 ## 7. Képernyőtervek (leírás szöveges formában)
 
