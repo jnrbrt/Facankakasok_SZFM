@@ -68,13 +68,12 @@ flowchart TD
 ### 5.2 Használati esetek
 
 ```mermaid
-usecaseDiagram
-actor Felhasználó
-Felhasználó --> (Hírek listázása)
-Felhasználó --> (Keresés)
-Felhasználó --> (Kategória választás)
-Felhasználó --> (Részletes nézet)
-Felhasználó --> (Lapozás)
+flowchart TD
+    Felhasználó --> Hírek["Hírek listázása"]
+    Felhasználó --> Kereses["Keresés"]
+    Felhasználó --> Kategoria["Kategória választás"]
+    Felhasználó --> Reszletes["Részletes nézet"]
+    Felhasználó --> Lapozas["Lapozás"]
 ```
 
 ### 5.3 Határ osztályok
