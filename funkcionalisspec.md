@@ -36,7 +36,16 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 
 ## 4. Igényelt üzleti folyamatok modellje
 
-
+- Felhasználó megnyitja a főoldalt.
+- A rendszer listázza a híreket időrendben rövid kivonattal.
+- Felhasználó kiválaszthat kategóriát, a rendszer szűri a híreket az adott témára.
+- Felhasználó kulcsszót ad meg a kereséshez, a rendszer visszaadja a releváns találatokat.
+- Felhasználó rákattint a címre, részletes nézet betöltődik.
+- Részletes nézet tartalmazza a teljes szöveget, dátumot és kategóriát.
+- Ha sok hír van, a rendszer lapozást biztosít, hogy a felhasználó oldalanként böngészhessen.
+- Hibakezelés: „Nincs találat” üzenet a keresésnél, 404 hiba nem elérhető cikk esetén.
+- A működés egyszerű és áttekinthető, a felhasználó könnyen eligazodik az oldalon.
+- A rendszer biztosítja, hogy az alapvető funkciók gyorsan elérhetők legyenek, és minden hír azonnal betölthető legyen.
 
 ## 5. Követelménylista
 
