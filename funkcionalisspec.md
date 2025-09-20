@@ -49,7 +49,13 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 
 ## 5. Követelménylista
 
-
+### Funkcionális követelmények
+- Legfrissebb hírek listázása főoldalon.
+- Kategóriák szerinti szűrés.
+- Kulcsszavas keresés címben és szövegben.
+- Részletes cikkmegtekintés.
+- Lapozás nagy elemszám esetén.
+- Hibakezelés: „Nincs találat” és 404 hiba.
 
 ## 6. Használati esetek (Use-case)
 
