@@ -127,6 +127,13 @@ classDiagram
 
 Hírek, kategóriák és metaadatok
 
+## 7.2 Absztrakt komponensek
+
+- Hírkezelő modul  
+- Szűrő modul  
+- Kereső modul  
+- Megjelenítő modul  
+
 ## 8. Architekturális terv
 
 
