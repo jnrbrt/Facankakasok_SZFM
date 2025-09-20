@@ -36,10 +36,27 @@ flowchart TD
   D --> E
   E --> F[Lapozás]
 ```
+## 3.3 Üzleti entitások
+
+- **Hír:** cím, kivonat, szöveg, dátum, kategória  
+- **Kategória:** azonosító, név  
 
 ## 4. Követelmények
 
+### 4.1 Funkcionális követelmények
 
+- Hírek listázása időrendben  
+- Kategóriák szerinti szűrés  
+- Kulcsszavas keresés címben és szövegben  
+- Részletes cikk nézet  
+- Lapozás nagy elemszám esetén  
+- Hibakezelés: „Nincs találat” és 404 oldal  
+
+### 4.2 Nem funkcionális követelmények
+
+- Egyszerű, letisztult felület  
+- Gyors betöltés és stabil működés  
+- Könnyen karbantartható kód  
 
 ## 5. Funkcionális terv
 
