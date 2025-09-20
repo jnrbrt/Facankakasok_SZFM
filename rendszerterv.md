@@ -7,7 +7,16 @@ A felhasználók gyorsan és egyszerűen érhetik el a legfrissebb híreket, kat
 
 ## 2. Projekt terv
 
+### 2.1 Projekt szerepkörök és felelősségek
 
+- **Megrendelő** – elvárások meghatározása, rendszer elfogadása  
+- **Projektvezető** – koordináció, dokumentáció  
+- **Frontend fejlesztő** – HTML, CSS, JavaScript  
+- **Tesztelő** – funkcionális tesztek  
+
+### 2.2 Fejlesztő eszközök
+
+VS Code, Git, Chrome/Firefox fejlesztői eszközök
 
 ## 3. Üzleti folyamatok modellje
 
