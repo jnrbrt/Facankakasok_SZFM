@@ -171,7 +171,9 @@ erDiagram
 
 ## 10. Implementációs terv
 
-
+- HTML, CSS, JS fájlok moduláris szerkezete  
+- Frontend: hírlap lista, keresés, szűrés, részletes cikk nézet  
+- Kódolási alapelvek: moduláris, jól kommentált, könnyen bővíthető  
 
 ## 11. Telepítési terv
 
