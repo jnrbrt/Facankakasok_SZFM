@@ -177,7 +177,9 @@ erDiagram
 
 ## 11. Telepítési terv
 
-
+- Fájlok feltöltése web szerverre  
+- Verziókezelés Git segítségével  
+- Kézi deploy és ellenőrzés  
 
 ## 12. Karbantartási terv
 
