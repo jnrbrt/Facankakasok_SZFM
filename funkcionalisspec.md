@@ -99,7 +99,10 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 
 ## 8. Forgatókönyvek
 
-
+- Felhasználó megnyitja a főoldalt → hírek listája megjelenik → kiválaszt egy cikket → részletes nézet betöltődik → visszatér a főoldalra.
+- Felhasználó keresést indít kulcsszóval → találatok listája megjelenik → kiválaszt egy találatot → részletes nézet betöltődik.
+- Felhasználó kategóriát választ → a rendszer szűri a híreket → csak a releváns hírek jelennek meg → lapozás szükség esetén.
+- Felhasználó több oldalt böngész lapozással → a rendszer minden oldalnál betölti a megfelelő híreket → felhasználó navigálhat vissza a főoldalra.
 
 ## 9. Funkció – követelmény megfeleltetés
 
