@@ -171,18 +171,11 @@ erDiagram
 
 ## 10. Implementációs terv
 
-- HTML, CSS, JS fájlok moduláris szerkezete  
-- Frontend: hírlap lista, keresés, szűrés, részletes cikk nézet  
-- Kódolási alapelvek: moduláris, jól kommentált, könnyen bővíthető  
+
 
 ## 11. Telepítési terv
 
-- Fájlok feltöltése web szerverre  
-- Verziókezelés Git segítségével  
-- Kézi deploy és ellenőrzés  
+
 
 ## 12. Karbantartási terv
 
-- Hibajavítások manuális teszteléssel  
-- Funkciók bővítése igény szerint  
-- Verziók nyomon követése Git-ben  
