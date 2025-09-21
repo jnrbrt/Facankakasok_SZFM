@@ -41,8 +41,20 @@ Az MVP verzióban kizárólag a hírmegjelenítés és -böngészés funkciói s
 
 ## 5. Követelménylista
 
+### Funkcionális követelmények
+- Legfrissebb hírek listázása főoldalon.
+- Kategóriák szerinti szűrés.
+- Kulcsszavas keresés címben és szövegben.
+- Részletes cikkmegtekintés.
+- Lapozás nagy elemszám esetén.
+- Hibakezelés: „Nincs találat” üzenet és nem elérhető cikk esetén hibaüzenet.
 
+### Nem funkcionális követelmények
+- Egyszerű, letisztult felület.
+- Gyors válaszidő az alapvető funkcióknál.
+- Stabil és folyamatos működés.
+- Alapvető adatbiztonsági előírások betartása.
 
 ## 6. Fogalomszótár
 
-
+- **MVP (Minimum Viable Product):** a rendszer első, működőképes verziója, amely tartalmazza az alapvető funkciókat, mint a hírek listázása, kategóriák szerinti szűrés, kulcsszavas keresés és részletes cikkmegtekintés.

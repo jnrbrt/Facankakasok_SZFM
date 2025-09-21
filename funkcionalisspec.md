@@ -92,11 +92,25 @@ A rendszer célja, hogy gyors és könnyen használható legyen, minden funkció
 
 ## 7. Képernyőtervek (leírás szöveges formában)
 
-
+- **Főoldal:** Hírek listája időrendben, rövid kivonattal, kategória szűrő oldalsávban.
+- **Részletes cikk:** Cím, teljes szöveg, dátum, kategória. Vissza gomb a főoldalra.
+- **Keresőmező:** A főoldalon található, azonnali találatok megjelenítése lista formában.
+- **Lapozás:** Oldalsáv vagy az oldal alján navigáció a következő/előző oldalakhoz.
 
 ## 8. Forgatókönyvek
 
-
+- Felhasználó megnyitja a főoldalt → hírek listája megjelenik → kiválaszt egy cikket → részletes nézet betöltődik → visszatér a főoldalra.
+- Felhasználó keresést indít kulcsszóval → találatok listája megjelenik → kiválaszt egy találatot → részletes nézet betöltődik.
+- Felhasználó kategóriát választ → a rendszer szűri a híreket → csak a releváns hírek jelennek meg → lapozás szükség esetén.
+- Felhasználó több oldalt böngész lapozással → a rendszer minden oldalnál betölti a megfelelő híreket → felhasználó navigálhat vissza a főoldalra.
 
 ## 9. Funkció – követelmény megfeleltetés
 
+| Funkció                   | Kapcsolódó követelmény             | Megjegyzés                  |
+|----------------------------|-----------------------------------|-----------------------------|
+| Hírek listázása főoldalon  | Legfrissebb hírek megjelenítése   | Időrendi sorrend            |
+| Kategória szerinti szűrés  | Kategóriák szerinti megjelenítés  | Oldalsávban                 |
+| Kulcsszavas keresés        | Cím és szöveg keresése            | Nincs találat esetén üzenet |
+| Részletes cikkmegtekintés  | Teljes szöveg, dátum, kategória   | Vissza a főoldalra          |
+| Lapozás                    | Több hír esetén                   | Oldalanként lista           |
+| Hibakezelés                | 404, Nincs találat                | Felhasználói értesítés      |
