@@ -183,3 +183,6 @@ erDiagram
 
 ## 12. Karbantartási terv
 
+- Hibajavítások manuális teszteléssel  
+- Funkciók bővítése igény szerint  
+- Verziók nyomon követése Git-ben  
