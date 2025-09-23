@@ -53,7 +53,30 @@ Ez az állapot nem támogatja sem a belső munkafolyamatokat, sem a felhasznál�
 
 ## 4. Igényelt üzleti folyamatok modellje
 
+A tervezett rendszer az alábbi folyamatokat biztosítja:
 
+1. **Hírek böngészése főoldalon:**  
+   - Felhasználó megnyitja a főoldalt.  
+   - A rendszer automatikusan időrendi sorrendben jeleníti meg a híreket.  
+
+2. **Kategóriák szerinti szűrés:**  
+   - Felhasználó választ egy kategóriát.  
+   - Csak az adott témához tartozó hírek jelennek meg.  
+
+3. **Kulcsszavas keresés:**  
+   - Felhasználó beír egy keresőkifejezést.  
+   - A rendszer a releváns híreket listázza.  
+
+4. **Részletes megtekintés:**  
+   - Felhasználó egy hír címére kattint.  
+   - A részletes nézetben teljes szöveg, dátum és kategória látható.  
+
+5. **Lapozás és hibakezelés:**  
+   - Nagy elemszám esetén a hírek több oldalra bontva jelennek meg.  
+   - „Nincs találat” üzenet, ha nincs eredmény.  
+   - 404 hiba, ha egy cikk nem elérhető.  
+
+---
 
 ## 5. Követelménylista
 
