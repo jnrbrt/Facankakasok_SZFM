@@ -15,7 +15,17 @@ Ennek következtében a felhasználók információhoz jutása lassú, pontatlan
 
 ## 2. Vágyálomrendszer leírása
 
+A jövőbeni rendszer egy egyszerű, letisztult webes **hírportál** lesz, amelynek fő célja a hírek könnyen elérhető és kereshető formában történő megjelenítése.  
+Az alábbi tulajdonságokat fogja biztosítani:
 
+- **Főoldali áttekintés:** A felhasználók a kezdőlapon azonnal láthatják a legfrissebb híreket, időrendbe rendezve. Minden hír rövid kivonattal jelenik meg, hogy gyorsan áttekinthető legyen a tartalom.  
+- **Kategorizálás:** A hírek kategóriákhoz tartoznak (pl. sport, politika, technológia), így a felhasználók szűrhetnek egy-egy témára.  
+- **Kulcsszavas keresés:** A rendszer támogatja a hírek címében és teljes szövegében való keresést, ezzel gyors elérést biztosítva a releváns információkhoz.  
+- **Részletes nézet:** A hír címére kattintva a felhasználó elérheti a cikk teljes szövegét, a megjelenés dátumát és a kategóriát.  
+- **Egyszerű használhatóság:** A felület minimalista és intuitív, amely lehetővé teszi, hogy a felhasználók technikai háttértudás nélkül is könnyedén használják.  
+- **MVP fókusz:** A kezdeti verzióban a rendszer kizárólag a hírmegjelenítésre és böngészésre koncentrál, tehát nem tartalmaz bonyolult funkciókat (pl. regisztrációt, hozzászólásokat, személyre szabást).  
+
+A vágyálomrendszer hosszú távon bővíthető, de az alapoknál a gyors, egyszerű és megbízható hírmegjelenítés az elsődleges cél.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
