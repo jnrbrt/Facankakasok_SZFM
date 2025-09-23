@@ -14,7 +14,25 @@ A portál nem foglal magában komplex interaktív funkciókat, mint például fe
 
 ## 2. Projekt terv
 
+### 2.1 Projekt szerepkörök és felelősségek
 
+- **Megrendelő**: meghatározza az elvárásokat, jóváhagyja a projekt mérföldköveit, ellenőrzi az átadott verziókat.  
+- **Projektvezető**: felel a projekt ütemezéséért, koordinálja a csapatot, dokumentálja a folyamatokat és a döntéseket.  
+- **Frontend fejlesztő**: HTML, CSS és JavaScript fejlesztés, a felhasználói felület megvalósítása.  
+- **Tesztelő**: a funkciók működésének ellenőrzése, hibák rögzítése, javaslat a fejlesztői javításokra.  
+
+### 2.2 Fejlesztő eszközök
+
+- VS Code, mint fő fejlesztői környezet.  
+- Git verziókezelés a kód nyomon követéséhez.  
+- Böngésző fejlesztői eszközök (Chrome/Firefox), hibakereséshez és teljesítmény elemzéshez.  
+
+### 2.3 Ütemterv és mérföldkövek
+
+- **Kezdő fázis**: követelmények rögzítése, tervezési alapok meghatározása.  
+- **Fejlesztési fázis**: HTML alapok, CSS stílus és elrendezés, JavaScript funkciók.  
+- **Tesztelési fázis**: integrációs és funkcionális tesztek, hibajavítások.  
+- **Átadás**: MVP verzió bemutatása, visszajelzések gyűjtése, végső finomhangolás.
 
 ## 3. Üzleti folyamatok modellje
 
