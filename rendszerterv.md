@@ -72,7 +72,21 @@ flowchart TD
 
 ## 4. Követelmények
 
+### 4.1 Funkcionális követelmények
 
+- Hírek listázása időrendben a főoldalon.  
+- Kategóriák szerinti szűrés lehetősége.  
+- Kulcsszavas keresés címben és szövegben.  
+- Részletes cikk megtekintése, teljes szöveggel és metaadatokkal.  
+- Lapozás nagy elemszám esetén.  
+- Hibakezelés: „Nincs találat” és 404 oldal megjelenítése.
+
+### 4.2 Nem funkcionális követelmények
+
+- Egyszerű, letisztult felhasználói felület, könnyen áttekinthető navigációval.  
+- Gyors betöltési idő és stabil működés minden modern böngészőben.  
+- Könnyen karbantartható, moduláris kódstruktúra.  
+- Alapvető böngésző kompatibilitás biztosítása, különböző képernyőméreteken is.
 
 ## 5. Funkcionális terv
 
