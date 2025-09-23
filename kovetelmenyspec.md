@@ -39,7 +39,30 @@ A vágyálomrendszer hosszú távon bővíthető, de az alapoknál a gyors, egys
 
 ## 4. Igényelt üzleti folyamatok modellje
 
+A jövőben a rendszer az alábbi egyszerű, felhasználóközpontú folyamatokat biztosítja:
 
+1. **Főoldali böngészés:**  
+   - A felhasználó megnyitja a hírportál főoldalát.  
+   - A rendszer automatikusan időrendi sorrendben jeleníti meg a híreket rövid kivonattal.  
+
+2. **Kategória szerinti szűrés:**  
+   - A felhasználó kiválaszt egy kategóriát.  
+   - A rendszer csak az adott témához tartozó híreket listázza ki.  
+
+3. **Keresés kulcsszó alapján:**  
+   - A felhasználó beír egy keresési kifejezést.  
+   - A rendszer releváns találatokat ad vissza a címekből és a szövegekből.  
+
+4. **Részletes megjelenítés:**  
+   - A felhasználó egy hír címére kattintva elérheti a teljes szöveget.  
+   - A részletes nézetben a hír dátuma és kategóriája is látható.  
+
+5. **Lapozás és hibakezelés:**  
+   - Ha sok hír van, a rendszer oldalanként teszi elérhetővé a cikkeket.  
+   - Ha a keresés nem ad eredményt, a felhasználó „Nincs találat” üzenetet kap.  
+   - Ha egy hír törölve lett vagy nem elérhető, a rendszer megfelelő hibaüzenetet jelenít meg.  
+
+Ezek az igényelt folyamatok egyszerűek, átláthatóak és a felhasználói élményt helyezik középpontba.
 
 ## 5. Követelménylista
 
