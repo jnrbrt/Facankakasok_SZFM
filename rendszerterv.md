@@ -197,7 +197,41 @@ classDiagram
 
 ## 8. Architekturális terv
 
+## 8.1 Tervezési minta
 
+A rendszer rétegzett architektúrát követ, amely lehetővé teszi az egyes komponensek elkülönített fejlesztését, tesztelését és karbantartását.
+
+### Rétegek
+
+- **UI réteg (HTML + CSS)**
+  - Felhasználói felület megjelenítése.
+  - Struktúrált tartalom: főoldali lista, részletes cikkek, kategória szűrő, keresőmező.
+  - Reszponzív megjelenés biztosítása mobil, tablet és asztali eszközökön.
+
+- **Logikai réteg (JavaScript)**
+  - Felhasználói interakciók kezelése: szűrés, keresés, lapozás.
+  - Moduláris felépítés: Hírkezelő, Szűrő, Kereső és Megjelenítő modulok.
+
+- **Adat réteg (JS objektumok / későbbi SQL adatbázis)**
+  - MVP-ben: hírek és kategóriák JavaScript objektumokban.
+  - Bővített verzióban: normalizált SQL adatbázis a nagyobb adatmennyiség hatékony kezelése érdekében.
+
+## 8.2 Biztonsági funkciók
+
+A rendszer tervezésénél különös figyelmet fordítottunk az alapvető biztonsági intézkedésekre, mivel a cél egy olvasható és egyszerű hírportál.
+
+- **Csak olvasható tartalom**
+  - A felhasználók nem tudnak adatot módosítani, így nincs lehetőség véletlen vagy szándékos adatvesztésre.
+  - Az oldalon nem találhatók szerkesztői felületek vagy adminisztrációs modulok.
+
+- **Nincs felhasználói adatbevitel**
+  - Nincsenek űrlapok, regisztráció vagy bejelentkezési lehetőségek, így minimalizált a potenciális támadási felület.
+
+- **Minimalizált támadási felület**
+  - A rendszer kliensoldali adatkezelést alkalmaz, nincs szerveroldali feldolgozás.
+  - XSS, SQL injection és egyéb tipikus webes támadások lehetősége minimális.
+
+---
 
 ## 9. Adatbázis terv
 
