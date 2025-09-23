@@ -80,7 +80,23 @@ A tervezett rendszer az alábbi folyamatokat biztosítja:
 
 ## 5. Követelménylista
 
+### Funkcionális követelmények
+- Hírek listázása főoldalon időrendi sorrendben.  
+- Kategóriák szerinti szűrés.  
+- Kulcsszavas keresés (cím + szöveg).  
+- Részletes cikknézet dátummal és kategóriával.  
+- Lapozás több hír esetén.  
+- Hibakezelés: „Nincs találat”, 404-es oldal.  
 
+### Nem funkcionális követelmények
+- **Egyszerűség:** minimalista és felhasználóbarát felület.  
+- **Teljesítmény:** gyors betöltés és keresés.  
+- **Megbízhatóság:** folyamatos és stabil működés.  
+- **Biztonság:** alapvető webes biztonsági szabályok betartása.  
+- **Kompatibilitás:** működés minden modern böngészőben és eszközön.  
+- **Karbantarthatóság:** jól strukturált, dokumentált kód.  
+
+---
 
 ## 6. Használati esetek (Use-case)
 
