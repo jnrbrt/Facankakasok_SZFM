@@ -100,7 +100,31 @@ A tervezett rendszer az alábbi folyamatokat biztosítja:
 
 ## 6. Használati esetek (Use-case)
 
+### Use-case 1: Hírek listázása főoldalon
+- **Szereplő:** Felhasználó  
+- **Előfeltétel:** Felhasználó megnyitotta a főoldalt  
+- **Lépések:**  
+  1. A rendszer betölti a legutóbbi híreket (pl. 10 darab).  
+  2. Megjelenik a cím, rövid kivonat és dátum.  
+- **Utófeltétel:** Felhasználó áttekinti a híreket.  
 
+### Use-case 2: Hír részletes megtekintése
+- **Szereplő:** Felhasználó  
+- **Előfeltétel:** Hírek listája megjelent  
+- **Lépések:**  
+  1. Felhasználó rákattint a cikk címére.  
+  2. Megjelenik a részletes nézet teljes szöveggel, dátummal, kategóriával.  
+- **Utófeltétel:** Felhasználó elolvassa a teljes cikket.  
+
+### Use-case 3: Keresés kulcsszó alapján
+- **Szereplő:** Felhasználó  
+- **Előfeltétel:** Főoldal megnyitva  
+- **Lépések:**  
+  1. Felhasználó beír egy kulcsszót a keresőmezőbe.  
+  2. Rendszer megjeleníti a releváns találatokat.  
+- **Utófeltétel:** Felhasználó megkapja a keresett információt, vagy „Nincs találat” üzenetet.  
+
+---
 
 ## 7. Képernyőtervek (leírás szöveges formában)
 
