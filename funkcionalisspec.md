@@ -38,7 +38,18 @@ A vágyálomrendszer alapot biztosít a jövőbeli fejlesztésekhez (pl. felhasz
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+A hírek előállítása folyamatosan történik, de:  
 
+- nincs egységes publikálási csatorna,  
+- a hírek nyilvánosan nem érhetők el,  
+- a tárolás rendszertelen és nem szabványos,  
+- az érdeklődők nem tudják egy központi helyen követni az eseményeket,  
+- a keresés és szűrés teljesen hiányzik,  
+- a frissítések manuálisan, lassan zajlanak.  
+
+Ez az állapot nem támogatja sem a belső munkafolyamatokat, sem a felhasználók tájékoztatását.
+
+---
 
 ## 4. Igényelt üzleti folyamatok modellje
 
