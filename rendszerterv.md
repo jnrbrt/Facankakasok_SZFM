@@ -90,7 +90,49 @@ flowchart TD
 
 ## 5. Funkcionális terv
 
+### 5.1 Rendszer szereplők
 
+- **Felhasználó:** böngészi a híreket, keres és szűr.  
+- **Rendszer:** biztosítja a hírek elérhetőségét, keresés és szűrés funkciókat.
+
+### 5.2 Használati esetek
+
+```mermaid
+flowchart TD
+    Felhasználó --> Hírek["Hírek listázása"]
+    Felhasználó --> Kereses["Keresés"]
+    Felhasználó --> Kategoria["Kategória választás"]
+    Felhasználó --> Reszletes["Részletes nézet"]
+    Felhasználó --> Lapozas["Lapozás"]
+```
+
+## 5.3 Határ osztályok
+
+- **index.html**: főoldali hírek listája, kategória szűrő és keresőmező.  
+- **article.html**: részletes cikk megtekintés, metaadatokkal együtt.
+
+## 5.4 Menü hierarchia
+
+```mermaid
+flowchart TD
+  Home[Főoldal] --> News[Hírek listája]
+  Home --> Filter[Kategóriák szerinti szűrés]
+  Home --> Search[Keresőmező]
+  News --> Detail[Cikk részletei]
+```
+
+# 5.5 Képernyőtervek
+
+- **Főoldal:** hírek listája, kategória szűrő, keresőmező, lapozás.  
+- **Részletes nézet:** cím, teljes szöveg, dátum, kategória, vissza gomb.  
+
+```mermaid
+graph LR
+  Főoldal --> HírekLista
+  Főoldal --> Szűrő
+  Főoldal --> Kereső
+  HírekLista --> RészletesNézet
+```
 
 ## 6. Fizikai környezet
 
