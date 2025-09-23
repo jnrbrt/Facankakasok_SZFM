@@ -29,7 +29,13 @@ A vágyálomrendszer hosszú távon bővíthető, de az alapoknál a gyors, egys
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+- A hírek létrejönnek (pl. sajtóközlemények, belső kommunikációs anyagok), de ezek nem kerülnek egységes, digitális felületre.  
+- A szervezet rendelkezik a tartalommal, de azt nem tudja nyilvánosan közzétenni.  
+- A hírek széttagolt tárolása miatt a visszakeresés nehézkes, nem szabványosított.  
+- Az érdeklődők csak esetlegesen, különböző csatornákon érhetnek el híreket, központi gyűjtőfelület nélkül.  
+- Nincs automatizált rendszer a hírek publikálására és archiválására, ezért a régebbi anyagok elérhetősége korlátozott.  
 
+Összességében a jelenlegi folyamat nem támogatja sem a belső munkafolyamatokat, sem a külső kommunikációt.
 
 ## 4. Igényelt üzleti folyamatok modellje
 
