@@ -36,7 +36,39 @@ A portál nem foglal magában komplex interaktív funkciókat, mint például fe
 
 ## 3. Üzleti folyamatok modellje
 
+### 3.1 Üzleti szereplők
 
+- **Felhasználó**: látogatja az oldalt, böngészi a híreket, szűr, keres és olvas.  
+- **Rendszer**: felelős a hírek megjelenítéséért, kategorizálásáért, keresés és lapozás biztosításáért.  
+
+### 3.2 Üzleti folyamatok
+
+A felhasználó a főoldalon elindulva a híreket kategória vagy kulcsszó alapján szűrheti. A részletes cikk megtekintése után visszatérhet a listaoldalra, vagy lapozhat a következő hírekhez.
+
+**Folyamat lépései:**
+
+1. Főoldal megnyitása.  
+2. Hírek listázása, alapértelmezett időrend szerint.  
+3. Kategória szerinti szűrés alkalmazása.  
+4. Kulcsszó alapján történő keresés.  
+5. Részletes cikk megtekintése.  
+6. Lapozás a következő oldalakra, ha nagyobb számú hír van.  
+
+### 3.3 Üzleti entitások
+
+- **Hír**: tartalmazza a címet, kivonatot, teljes szöveget, dátumot és kategóriát.  
+- **Kategória**: azonosító és név alapján csoportosítja a híreket.  
+
+#### Ábra: Üzleti folyamat diagram
+```mermaid
+flowchart TD
+  A[Főoldal] --> B[Hírek listázása]
+  B --> C[Kategória szűrés]
+  B --> D[Keresés kulcsszó alapján]
+  C --> E[Részletes nézet]
+  D --> E
+  E --> F[Lapozás következő oldalakra]
+```
 
 ## 4. Követelmények
 
