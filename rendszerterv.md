@@ -136,7 +136,25 @@ graph LR
 
 ## 6. Fizikai környezet
 
+## 6.1 Fizikai alrendszerek
 
+A rendszer fizikai környezete három fő rétegre épül, amelyek egymással összhangban működnek, de külön-külön is fejleszthetők és karbantarthatók.
+
+### HTML réteg
+- Feladata a tartalom strukturált megjelenítése.
+- Főoldali hírek listája, részletes cikkek, kategóriák és keresőmező biztosítása.
+- Fontos a szabványos és valid HTML használata, hogy minden böngészőben egységesen jelenjen meg a felület.
+
+### CSS réteg
+- Kezeli a vizuális megjelenést: színek, betűtípusok, gombok, elrendezés.
+- Támogatja a moduláris stílusokat, amelyek könnyen bővíthetők.
+- Reszponzív design: mobil, tablet és asztali eszközök támogatása.
+- Általános stílusok: gombok, linkek, fejléc és lábléc egységes megjelenése.
+
+### JavaScript réteg
+- Felelős a keresés, szűrés és lapozás logikájáért.
+- Moduláris felépítés: minden funkció önálló modulban, könnyen karbantartható.
+- Kommunikál a HTML réteggel a DOM manipuláció révén és a CSS-sel a dinamikus megjelenítéshez.
 
 ## 7. Absztrakt domain modell
 
