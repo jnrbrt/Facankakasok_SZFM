@@ -18,7 +18,23 @@ A helyzet egyaránt problémát jelent a szervezet belső kommunikációja és a
 
 ## 2. Vágyálomrendszer leírása
 
+A cél egy **egyszerű, webalapú hírportál** létrehozása, amely kizárólag a hírek rendszerezett megjelenítésére koncentrál.  
 
+### Alapvető funkciók
+- **Főoldali hírek:** A legfrissebb hírek listázása időrendben, rövid kivonattal.  
+- **Kategorizálás:** Hírek szűrése témák szerint (pl. sport, politika, technológia).  
+- **Keresés:** Kulcsszavas keresés a hírek címében és teljes szövegében.  
+- **Részletes megtekintés:** A teljes cikk, dátum és kategória elérése egy kattintással.  
+- **Lapozás:** Nagy elemszám esetén oldalankénti böngészés.  
+
+### Tervezési irányelvek
+- **Letisztult, egyszerű kezelhetőség:** Felhasználóbarát, minimalista felület.  
+- **MVP szemlélet:** Csak a legfontosabb funkciókat tartalmazza; nincs regisztráció, kommentelés vagy reklám.  
+- **Gyors működés:** A hírek megjelenítése és keresése rövid válaszidővel történjen.  
+
+A vágyálomrendszer alapot biztosít a jövőbeli fejlesztésekhez (pl. felhasználói fiókok, személyre szabott hírfolyam), de első körben az **egyszerű, átlátható hírmegjelenítés** a cél.
+
+---
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
