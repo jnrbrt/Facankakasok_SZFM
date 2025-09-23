@@ -121,7 +121,7 @@ flowchart TD
   News --> Detail[Cikk részletei]
 ```
 
-# 5.5 Képernyőtervek
+## 5.5 Képernyőtervek
 
 - **Főoldal:** hírek listája, kategória szűrő, keresőmező, lapozás.  
 - **Részletes nézet:** cím, teljes szöveg, dátum, kategória, vissza gomb.  
