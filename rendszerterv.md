@@ -158,7 +158,42 @@ A rendszer fizikai környezete három fő rétegre épül, amelyek egymással ö
 
 ## 7. Absztrakt domain modell
 
+## 7.1 Domain specifikáció
 
+A rendszer domain modellje az alábbi fő entitásokra épül, amelyek meghatározzák a hírek kezelésének és megjelenítésének logikáját.
+
+- **Hírek**
+  - Minden hír tartalmaz:
+    - **Cím**: a hír rövid, informatív címe.
+    - **Kivonat**: rövid összefoglaló a cikk tartalmáról.
+    - **Teljes szöveg**: a cikk teljes tartalma HTML formátumban.
+    - **Dátum**: a hír publikálásának időpontja.
+    - **Kategória**: a hírhez tartozó kategória, amely csoportosítja a tartalmat.
+
+- **Kategóriák**
+  - Azonosítóval és névvel ellátott csoportok.
+  - Segítik a hírek rendezését, szűrését és gyors elérését.
+
+- **Metaadatok**
+  - Szerző: a hír írója.
+  - Forrás: az eredeti hírforrás.
+  - Hivatkozások: kapcsolódó cikkek vagy külső linkek.
+
+```mermaid
+classDiagram
+  class Hir {
+    +cim
+    +kivonat
+    +tartalom
+    +datum
+    +kategoria
+  }
+  class Kategoria {
+    +id
+    +nev
+  }
+  Hir --> Kategoria
+```
 
 ## 8. Architekturális terv
 
