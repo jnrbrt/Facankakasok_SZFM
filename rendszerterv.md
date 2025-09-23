@@ -136,8 +136,6 @@ graph LR
 
 ## 6. Fizikai környezet
 
-## 6.1 Fizikai alrendszerek
-
 A rendszer fizikai környezete három fő rétegre épül, amelyek egymással összhangban működnek, de külön-külön is fejleszthetők és karbantarthatók.
 
 ### HTML réteg
