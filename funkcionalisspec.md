@@ -161,3 +161,11 @@ A tervezett rendszer az alábbi folyamatokat biztosítja:
 
 ## 9. Funkció – követelmény megfeleltetés
 
+| Funkció                   | Kapcsolódó követelmény             | Megjegyzés                  |
+|----------------------------|-----------------------------------|-----------------------------|
+| Hírek listázása főoldalon  | Legfrissebb hírek megjelenítése   | Időrendi sorrend            |
+| Kategória szerinti szűrés  | Kategóriák szerinti megjelenítés  | Oldalsávban                 |
+| Kulcsszavas keresés        | Cím és szöveg keresése            | Nincs találat esetén üzenet |
+| Részletes cikkmegtekintés  | Teljes szöveg, dátum, kategória   | Vissza a főoldalra          |
+| Lapozás                    | Több hír esetén                   | Oldalankénti megjelenítés   |
+| Hibakezelés                | 404, Nincs találat                | Felhasználói értesítés      |
