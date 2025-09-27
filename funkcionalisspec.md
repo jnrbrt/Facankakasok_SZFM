@@ -128,11 +128,36 @@ A tervezett rendszer az alábbi folyamatokat biztosítja:
 
 ## 7. Képernyőtervek (leírás szöveges formában)
 
+- **Főoldal:**  
+  Időrendi hírek listája rövid kivonattal. Oldalsávban kategória szűrő. Fejlécben keresőmező.  
 
+- **Részletes cikk nézet:**  
+  Cikk címe, teljes szövege, dátuma, kategóriája. Vissza gomb a főoldalra.  
+
+- **Keresés eredménye:**  
+  A találatok listája cím + kivonat formában, azonos elrendezésben, mint a főoldalon.  
+
+- **Lapozás:**  
+  Az oldal alján navigáció a következő/előző oldalakhoz.  
+
+---
 
 ## 8. Forgatókönyvek
 
+1. **Egyszerű böngészés:**  
+   Felhasználó megnyitja a főoldalt → hírek listája megjelenik → kiválaszt egy hírt → részletes nézet betöltődik → visszalép a főoldalra.  
 
+2. **Keresés folyamata:**  
+   Felhasználó beír egy kulcsszót → találatok megjelennek → felhasználó kiválaszt egy cikket → részletes nézet betöltődik.  
+
+3. **Kategóriák szerinti böngészés:**  
+   Felhasználó választ egy kategóriát → csak releváns hírek jelennek meg → lapozás szükség esetén.  
+
+4. **Hibakezelés:**  
+   Felhasználó keresést indít, de nincs eredmény → „Nincs találat” üzenet jelenik meg.  
+   Felhasználó elér egy törölt hírt → rendszer 404-es oldalt ad vissza.  
+
+---
 
 ## 9. Funkció – követelmény megfeleltetés
 
