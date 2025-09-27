@@ -233,28 +233,112 @@ A rendszer tervezésénél különös figyelmet fordítottunk az alapvető bizto
 
 ## 9. Adatbázis terv
 
-A rendszer tervezésénél különös figyelmet fordítottunk az alapvető biztonsági intézkedésekre, mivel a cél egy olvasható és egyszerű hírportál.
+A hírek és kategóriák adatainak tárolása és kezelése normalizált módon történik. Az adatbázis terv segíti a későbbi bővítést és a hatékony lekérdezéseket.
 
-- **Csak olvasható tartalom**
-  - A felhasználók nem tudnak adatot módosítani, így nincs lehetőség véletlen vagy szándékos adatvesztésre.
-  - Az oldalon nem találhatók szerkesztői felületek vagy adminisztrációs modulok.
+### 9.1 Adatszerkezet
 
-- **Nincs felhasználói adatbevitel**
-  - Nincsenek űrlapok, regisztráció vagy bejelentkezési lehetőségek, így minimalizált a potenciális támadási felület.
+- **HIR**
+  - `id`: egyedi azonosító (integer)
+  - `cim`: a hír címe (string)
+  - `kivonat`: rövid összefoglaló (string)
+  - `tartalom`: teljes szöveg (string)
+  - `datum`: publikáció dátuma (date)
+  - `kategoria_id`: a hír kategóriájára mutató azonosító (integer)
 
-- **Minimalizált támadási felület**
-  - A rendszer kliensoldali adatkezelést alkalmaz, nincs szerveroldali feldolgozás.
-  - XSS, SQL injection és egyéb tipikus webes támadások lehetősége minimális.
+- **KATEGORIA**
+  - `id`: egyedi azonosító (integer)
+  - `nev`: kategória neve (string)
 
----
+### 9.2 Kapcsolatok
+
+- Minden **Hír** egy **Kategóriához** tartozik (many-to-one kapcsolat).
+- A kategóriák segítik a hírek rendszerezését és szűrését.
+
+```mermaid
+erDiagram
+  HIR {
+    int id
+    string cim
+    string kivonat
+    string tartalom
+    date datum
+    int kategoria_id
+  }
+  KATEGORIA {
+    int id
+    string nev
+  }
+  HIR }o--|| KATEGORIA : tartozik
+```
 
 ## 10. Implementációs terv
 
+A rendszer implementációja moduláris felépítést követ, amely lehetővé teszi a könnyű karbantartást és a jövőbeni bővítést. A frontend, a logikai és az adatkezelő modulok különálló fájlokban kerülnek megvalósításra.
+
+### 10.1 Moduláris felépítés
+
+- **HTML fájlok:** a tartalom struktúrájának megjelenítéséért felelősek.  
+  - `index.html`: főoldali hírek listája, kategória szűrő, keresőmező.  
+  - `article.html`: részletes cikk nézet, metaadatokkal együtt.
+
+- **CSS fájlok:** a vizuális megjelenésért felelősek, reszponzív és moduláris stílusokkal.  
+  - Gombok, linkek, fejléc, lábléc, alapvető elrendezések.
+
+- **JavaScript modulok:** a keresés, szűrés, lapozás logikáját kezelik.  
+  - `Hirkezelo.js`: hírek betöltése, tárolása, rendezése.  
+  - `Szuro.js`: kategóriák és időrend szerinti szűrés.  
+  - `Kereso.js`: kulcsszavas keresés a címekben és szövegekben.  
+  - `Megjelenito.js`: HTML és CSS koordinálása, reszponzív megjelenítés biztosítása.
+
+### 10.2 Frontend funkciók
+
+- **Hírlap lista:** címmel, kivonattal, dátummal és kategóriával.  
+- **Keresés:** kulcsszavas keresés a címek és szövegek között.  
+- **Szűrés:** kategóriák alapján történő hírlistázás.  
+- **Részletes cikk nézet:** teljes szöveg és metaadatok.  
+- **Lapozás:** nagyobb hírmennyiség kezelése több oldalon keresztül.
+
+### 10.3 Kódolási alapelvek
+
+- **Olvashatóság:** jól kommentált, tiszta kód.  
+- **Modularitás:** minden modul önálló felelősségi körrel rendelkezik.  
+- **Újrafelhasználhatóság:** komponensek könnyen átvihetők más projektekbe.  
+- **Bővíthetőség:** további funkciók (pl. kommentek, felhasználói fiókok) könnyen integrálhatók.
+
+```mermaid
+flowchart LR
+  HTML[HTML] --> CSS[CSS]
+  HTML --> JS[JS modulok]
+  JS --> HírekLista
+  JS --> Kereső
+  JS --> Szűrő
+```
 
 
 ## 11. Telepítési terv
 
+A telepítési terv célja, hogy a fejlesztett hírportál stabilan és megbízhatóan kerüljön fel a web szerverre, biztosítva a folyamatos működést a felhasználók számára.
 
+### 11.1 Telepítési lépések
+
+1. **Fájlok feltöltése:**  
+   - HTML, CSS és JS fájlok FTP/SFTP segítségével kerülnek a web szerverre.  
+   - A képek, ikonok és egyéb statikus tartalmak külön könyvtárban kerülnek tárolásra.
+
+2. **Verziókezelés:**  
+   - Git használata a kód változásainak nyomon követéséhez.  
+   - Commitok és branch-ek biztosítják a verziók visszaállíthatóságát és a csapatmunkát.
+
+3. **Kézi deploy és ellenőrzés:**  
+   - Böngészőben történő tesztelés különböző eszközökön (mobil, tablet, desktop).  
+   - Hibák, reszponzivitási problémák, betöltési idők ellenőrzése.
+
+```mermaid
+flowchart TD
+  Dev[Fejlesztői gép] --> Git[Git verziókezelés]
+  Git --> Server[Web szerver]
+  Server --> Browser[Felhasználó böngésző]
+```
 
 ## 12. Karbantartási terv
 
