@@ -66,7 +66,23 @@ Ezek az igényelt folyamatok egyszerűek, átláthatóak és a felhasználói é
 
 ## 5. Követelménylista
 
+### Funkcionális követelmények
 
+- Legfrissebb hírek listázása főoldalon időrendi sorrendben.  
+- Hírek szűrése kategóriák szerint (pl. sport, politika, technológia).  
+- Kulcsszavas keresés a hírek címében és szövegében.  
+- Részletes cikkmegtekintés: teljes szöveg, dátum és kategória.  
+- Lapozás nagy elemszám esetén.  
+- Hibakezelés: „Nincs találat” üzenet és 404-es hibaüzenet nem elérhető cikkeknél.  
+
+### Nem funkcionális követelmények
+
+- **Felhasználói élmény:** egyszerű, letisztult és gyorsan átlátható felület.  
+- **Teljesítmény:** gyors betöltési idő, rövid válaszidők.  
+- **Megbízhatóság:** stabil működés, minimális leállás.  
+- **Karbantarthatóság:** moduláris, jól dokumentált kód, amely hosszú távon is könnyen bővíthető.  
+- **Kompatibilitás:** működés minden modern böngészőben és különböző képernyőméreteken (reszponzív design).  
+- **Adatbiztonság:** alapvető biztonsági szabályok betartása, például megbízható fájlkiszolgálás, támadási felület minimalizálása.  
 
 ## 6. Fogalomszótár
 
