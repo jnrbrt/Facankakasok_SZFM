@@ -233,7 +233,20 @@ A rendszer tervezésénél különös figyelmet fordítottunk az alapvető bizto
 
 ## 9. Adatbázis terv
 
+A rendszer tervezésénél különös figyelmet fordítottunk az alapvető biztonsági intézkedésekre, mivel a cél egy olvasható és egyszerű hírportál.
 
+- **Csak olvasható tartalom**
+  - A felhasználók nem tudnak adatot módosítani, így nincs lehetőség véletlen vagy szándékos adatvesztésre.
+  - Az oldalon nem találhatók szerkesztői felületek vagy adminisztrációs modulok.
+
+- **Nincs felhasználói adatbevitel**
+  - Nincsenek űrlapok, regisztráció vagy bejelentkezési lehetőségek, így minimalizált a potenciális támadási felület.
+
+- **Minimalizált támadási felület**
+  - A rendszer kliensoldali adatkezelést alkalmaz, nincs szerveroldali feldolgozás.
+  - XSS, SQL injection és egyéb tipikus webes támadások lehetősége minimális.
+
+---
 
 ## 10. Implementációs terv
 
