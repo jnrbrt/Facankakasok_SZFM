@@ -342,3 +342,58 @@ flowchart TD
 
 ## 12. Karbantartási terv
 
+A karbantartási terv célja, hogy a hírportál hosszú távon stabilan és megbízhatóan működjön, valamint gyorsan reagáljon a felhasználói igényekre és hibákra.
+
+### 12.1 Hibajavítás
+
+- **Folyamat:** minden felfedezett hiba manuális teszteléssel kerül azonosításra és javításra a fejlesztők által.  
+- **Kategorizálás:** hibák fontosság szerint kerülnek rangsorolásra:
+  - Kritikus: azonnali beavatkozást igényel, a rendszer működését akadályozza.
+  - Közepes: funkciók részleges kiesése, felhasználói élményt rontja, de a portál működőképes.
+  - Alacsony prioritás: kisebb hibák, amelyek nem befolyásolják alapvetően a működést.
+- **Dokumentáció:** minden hiba rögzítése Git issue trackerben, a javítások nyomon követhetők és visszakövethetők.
+
+### 12.2 Funkcióbővítés
+
+- **Új funkciók:** a felhasználói visszajelzések és igények alapján kerülnek hozzáadásra.  
+- **Példák:**
+  - Új kategóriák és címkék létrehozása a hírek jobb szűréséhez.
+  - Keresési funkciók kiterjesztése, például dátum vagy szerző alapján.
+  - Hosszabb távon felhasználói fiókok és hozzászólások integrálása.
+
+### 12.3 Verziókövetés és adatbiztonság
+
+- **Verziókövetés:** minden kód- és adatbázis-módosítás Git-ben történik, így könnyen visszaállíthatók korábbi állapotok.
+- **Dokumentálás:** verziók leírása, változások nyilvántartása, fejlesztési jegyzetek rögzítése.
+- **Mentések:** rendszeres adat- és kódmentések biztosítják az adatvesztés elleni védelmet, gyors helyreállítási lehetőséget biztosítva.
+
+```mermaid
+flowchart TD
+  Kód[Kód és adat] --> GitRepo[Git verziókezelés]
+  GitRepo --> Mentés[Rendszeres mentések]
+  Mentés --> Helyreállítás[Korábbi verzió visszaállítása]
+```
+
+### 12.4 Karbantartási ciklus
+
+A karbantartási ciklus célja a hírportál folyamatos megbízhatóságának és felhasználói élményének biztosítása. A ciklus rendszeres ellenőrzéseket és dokumentált folyamatokat tartalmaz.
+
+- **Rendszeres ellenőrzés:** 
+  - A rendszer funkcióinak és teljesítményének heti/heti rendszerességgel történő ellenőrzése.
+  - Automatikus és manuális tesztelések kombinációja a hibák korai észlelésére.
+  
+- **Hiba- és funkciójelentések:** 
+  - Minden új hiba és felhasználói igény rögzítése dokumentált formában a verziókezelő rendszerben.
+  - Prioritások megadása, hogy a kritikus hibák és fontos funkciók elsőbbséget kapjanak.
+
+- **Frissítések tervezése:** 
+  - Az új funkciók és hibajavítások ütemezése a következő fejlesztési ciklusokra.
+  - Minden frissítés előzetes tesztelésen és jóváhagyáson megy keresztül a minőség biztosítása érdekében.
+
+```mermaid
+flowchart TD
+  Tesztelés[Heti/Havi tesztelés] --> HibákRögzítése[Hibák és funkcióigények dokumentálása]
+  HibákRögzítése --> Prioritás[Prioritások meghatározása]
+  Prioritás --> Fejlesztés[Frissítések és hibajavítások ütemezése]
+  Fejlesztés --> Tesztelés
+```
