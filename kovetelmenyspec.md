@@ -86,3 +86,7 @@ Ezek az igényelt folyamatok egyszerűek, átláthatóak és a felhasználói é
 
 ## 6. Fogalomszótár
 
+- **MVP (Minimum Viable Product):** A rendszer első, működőképes verziója, amely tartalmazza az alapfunkciókat: hírek listázása, kategóriák szerinti szűrés, kulcsszavas keresés és részletes cikkmegtekintés.  
+- **Részletes nézet:** Egy hír önálló oldala, ahol a teljes szöveg, a dátum és a kategória megjelenik.  
+- **Kategória:** Egy logikai csoportosítás (pl. sport, politika), amelyhez egy vagy több hír tartozhat.  
+- **Felhasználó:** Az a látogató, aki a hírportált böngészi, de nem rendelkezik szerkesztési vagy adminisztrátori jogosultságokkal.  
