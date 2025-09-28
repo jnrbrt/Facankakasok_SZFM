@@ -8,7 +8,34 @@
     </head>
     <body>
         <header id="header">
-            
+            <div id="header-left">
+                <label id="nav-label">☰ Kategóriák</label>
+                <ul id="nav-categories" data-simplebar>
+                    <li>Tudomány</li>
+                    <li>Politika</li>
+                    <li>Gazdaság</li>
+                    <li>Bulvár</li>
+                    <li>Külföld</li>
+                    <li>Sport</li>
+                    <li>E-sport</li>
+                    <li>Élet</li>
+                    <li>Tech</li>
+                </ul>
+            </div>
+
+            <div id="header-right">
+                <input type="text" placeholder="Keresés" id="search-box">
+                <button id="search-button" onclick="Search()">Keresés</button>
+            </div>
+
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="dark-mode-switch">
+                <label for="dark-mode-switch" class="switch-label">
+                    <span class="label-left">Light Mode</span>
+                    <span class="toggle-circle"></span>
+                    <span class="label-right">Dark Mode</span>
+                </label>
+            </div>
         </header>
         <main id="main">
             <section>
