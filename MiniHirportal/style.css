@@ -141,3 +141,131 @@ nav:hover #nav-categories,
     padding: 12px 0;
     text-align: center;
 }
+
+footer > a {
+    align-self: center;
+    text-decoration: none;
+    color: rgb(226, 247, 226);
+}
+
+#nav-categories li.active {
+    background-color: rgb(37, 53, 50);
+    color: rgb(226, 247, 226);
+    border-radius: 4px;
+}
+
+#article-list h2 a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#header a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.article-card {
+    max-width: 50%;
+    margin: 10px auto;
+    padding: 1%;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.article-card:hover {
+    background-color: rgb(193, 245, 193)
+}
+
+body.dark-mode .article-card:hover {
+    background-color: rgb(75, 99, 94);
+}
+
+#preview-category {
+    color: rgb(52, 141, 104);
+    margin-bottom: auto;
+}
+
+body.dark-mode #preview-category {
+    color: rgb(166, 206, 166);
+}
+
+#preview-title {
+    margin-top: auto;
+}
+
+body.dark-mode #preview-title {
+    color: rgb(226, 247, 226);
+}
+
+body.dark-mode #preview-text {
+    color: rgb(226, 247, 226);
+}
+
+#article {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+#article-title {
+    margin: 20px 0 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(37, 53, 50);
+}
+
+#article-div {
+    display: flex;
+}
+
+#article-meta {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(90, 120, 100);
+    margin-bottom: 15px;
+}
+
+body.dark-mode #article-meta {
+    color: rgb(166, 206, 166);
+}
+
+
+#article-image {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+#article-author {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(52, 141, 104);
+}
+
+body.dark-mode #article-author {
+    color: rgb(38, 206, 136);
+}
+
+#article-date {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(52, 141, 104);
+}
+
+body.dark-mode #article-date {
+    color: rgb(38, 206, 136);
+}
+
+#article-category {
+    color: rgb(52, 141, 104);
+    font-weight: bold;
+}
+
+body.dark-mode #article-category {
+    color: rgb(38, 206, 136);
+}
