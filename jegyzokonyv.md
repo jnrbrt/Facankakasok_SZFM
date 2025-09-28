@@ -27,8 +27,30 @@
 | T20 | Kategória választás után cikk linkek működnek | Kattints egy kategóriára, majd egy cikk címére | A cikk részletező oldal megnyílik | A cikk részletező oldal megnyílt | Sikeres |
 
 **Teszt dátuma:** 2025.09.28.
-**Tesztelő:** Név2
+**Tesztelő:** Molnár András
 
+| Teszt ID | Teszt leírás | Teszt lépés | Várt eredmény | Tényleges eredmény | Státusz |
+|----------|--------------|-------------|---------------|--------------------|---------|
+| T01 | Keresőmező megjelenése | Nézd meg a fejlécet | A keresőmező látható | A keresőmező látható volt | Sikeres |
+| T02 | Egyszerű kulcsszó keresés | Írd be: „politika” | Csak politikai hírek jelennek meg | Nem csak a politikai hírek jelentek meg | Sikertelen |
+| T03 | Kis- és nagybetűs keresés | Írd be: „Sport” és „sport” | Azonos találatok jelennek meg | Azonos találatok jelentek meg | Sikeres |
+| T04 | Keresés üres mezővel | Nyomj Entert üres mezőnél | Minden hír jelenjen meg | Minden hír megjelent | Sikeres |
+| T05 | Nem létező kulcsszó | Írd be: „xyz123” | „Nincs találat” üzenet jelenik meg | Megjelent a „Nincs megjeleníthető hír ebben a kategóriában.” üzenet | Sikeres |
+| T06 | Keresés törlése | Írj be valamit, majd töröld | Az összes hír újra megjelenik | Az összes hír újra megjelent | Sikeres |
+| T07 | Keresés és lapozás | Keresés után lapozz a 2. oldalra | A találatok lapozhatóak | A találatok lapozhatóak voltak | Sikeres |
+| T08 | Keresés és kategória kombinálása | Írd be: „drónok”, majd kattints a „Sport” kategóriára | Csak a sport kategórián belüli találatok maradnak | Csak sport kategórián belüli találatok maradtak | Sikeres |
+| T09 | Keresőmező fókusz | Kattints a keresőmezőbe | A kurzor villog, írható | A kurzor villogott és lehetett írni | Sikeres |
+| T10 | Rövid keresőkifejezés | Írj be a keresőbe 3 betűt és nyomd meg a "Keresés" gombot | Figyelmeztető üzenet jelenik meg: „A kereséshez legalább 5 karaktert kell megadni!” | Figyelmeztető üzenet megjelenik | Sikeres |
+| T11 | Keresés teljes kifejezésre | Írj be egy létező kifejezést (pl. „gazdaság”) és nyomj Entert | A találatok között megjelennek a keresett témájú cikkek | Találatok nem jelennek meg | Sikertelen |
+| T12 | Keresés speciális karakterrel | Írd be: „e-sport” | A rendszer a „e-sport” híreket keresi | A rendszer a „e-sport” híreket mutatta | Sikeres |
+| T13 | Keresés számokra | Írd be: „2024” | A 2024-es évszámot tartalmazó hírek megjelennek | Figyelmeztető üzenet jelenik meg: „A kereséshez legalább 5 karaktert kell megadni!” | Sikertelen |
+| T14 | Keresés hosszú szöveggel | Illessz be egy hosszabb mondatot | A releváns találatok jelennek meg | A releváns találatok megjelentek | Sikeres |
+| T15 | Keresés Enter helyett gombbal | Írd be: „magyar”, majd kattints a kereső ikonra | Lefut a keresés | Lefutott a keresés | Sikeres |
+| T16 | Keresés után oldal újratöltése | Írd be: „világbajnokság”, majd frissítsd az oldalt | Az alap lista jelenjen meg | Az alap lista jelent meg | Sikeres |
+| T17 | Keresés mobil nézetben | Kis képernyőméretben írd be: „sport” | A találatok mobil nézethez igazodnak | A találatok mobil nézetben jól látszottak | Sikeres |
+| T18 | Keresés ékezetekkel | Írd be: „űrtávcső” és „urtavcso” | Azonos találatok jelennek meg | Nem azonos találatok jelentek meg | Sikertelen |
+| T19 | Keresőmező ürítése gombbal | Írd be: „politika”, majd kattints az X gombra | A kereső kiürül, minden hír látszik | A kereső nem ürül ki | Sikertelen |
+| T20 | Keresés után cikk megnyitása | Keresés után kattints egy cikkre | Megnyílik a cikk részletező oldal | Megnyílt a cikk részletező oldal | Sikeres |
 
 **Teszt dátuma:** 2025.09.28.
 **Tesztelő:** Név3
