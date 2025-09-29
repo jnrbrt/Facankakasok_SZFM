@@ -139,3 +139,39 @@ if (path.endsWith("index.html") || path === "/" || path === "/index.html") {
 
     showArticles()
 }
+
+//hir oldala
+if (path.endsWith("article.html")) {
+    const articleDiv = document.getElementById("article")
+
+    const params = new URLSearchParams(window.location.search)
+    const articleId = parseInt(params.get("id"))
+    
+    const article = hirek.find(a => a.id === articleId)
+
+    if (article) {
+        articleDiv.innerHTML = `
+            <h1 id="article-title">${article.cim}</h1>
+            <div id="article-meta">
+                <span id="article-category">${article.kategoria}</span> |
+                <span id="article-date">${article.datum}</span> |
+                <span id="article-author">${article.szerzo}</span>
+            </div>
+            <img id="article-image" src="https://picsum.photos/1000/500" alt="Egy kép">
+            <div id="article-text">${article.tartalom}</div>
+        `
+    }
+}
+
+//dark mode
+const darkModeSwitch = document.getElementById("dark-mode-switch");
+if (localStorage.getItem("dark-mode") === "true") {
+    darkModeSwitch.checked = true;
+    document.body.classList.add("dark-mode");
+}
+
+darkModeSwitch.addEventListener("change", () => {
+    const isDark = darkModeSwitch.checked;
+    document.body.classList.toggle("dark-mode", isDark);
+    localStorage.setItem("dark-mode", isDark);
+});
