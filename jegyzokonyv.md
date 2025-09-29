@@ -52,5 +52,28 @@
 | T19 | Keresőmező ürítése gombbal | Írd be: „politika”, majd kattints az X gombra | A kereső kiürül, minden hír látszik | A kereső nem ürül ki | Sikertelen |
 | T20 | Keresés után cikk megnyitása | Keresés után kattints egy cikkre | Megnyílik a cikk részletező oldal | Megnyílt a cikk részletező oldal | Sikeres |
 
-**Teszt dátuma:** 2025.09.28.
-**Tesztelő:** Név3
+**Teszt dátuma:** 2025.09.29.
+**Tesztelő:** Szopkó Endre Patrik
+
+| Teszt ID | Teszt leírás | Teszt lépés | Várt eredmény | Tényleges eredmény | Státusz |
+|----------|--------------|-------------|---------------|--------------------|---------|
+| T01 | Cikk megnyitása főoldalról | Kattints egy hír címére | Megnyílik a cikk részletező oldal | Megnyílt a cikk részletező oldal | Sikeres |
+| T02 | Cikk tartalom megjelenése | Nyisd meg a cikket | A cím, szöveg és kép helyesen látható | A cím, szöveg és kép helyesen látható volt | Sikeres |
+| T03 | Visszalépés a főoldalra | A böngésző vissza gombjával lépj vissza | A főoldal jelenjen meg a teljes listával | A főoldal megjelent a teljes listával | Sikeres |
+| T04 | Kattintható kép | Kattints a cikk képére | A kép nagyított verziója nyílik meg | A képre nem lehet kattintani | Sikertelen |
+| T05 | Linkek a cikken belül | Kattints egy hivatkozásra a szövegben | A hivatkozott oldal megnyílik | Nincsenek hivatkozások a szövegben | Sikertelen |
+| T06 | Kapcsolódó cikkek listázása | Nyisd meg a cikket | Alul megjelennek a kapcsolódó hírek | Nem jelennek meg kapcsolódó cikkek | Sikertelen |
+| T07 | Cikk megnyitása főoldalról | Kattints egy cikk címére a főoldalon | A cikk oldala megnyílik, látható a cím, szerző, dátum, kép és tartalom | A cikkoldal helyesen megnyílik | Sikeres |
+| T08 | Cikk visszanavigálás | A cikkoldalon kattints a „Vissza a főoldalra” linkre | A főoldal (index.html) újra betöltődik | Főoldal megnyílik | Sikeres |
+| T09 | Dark mode váltás | Kapcsold be a dark mode kapcsolót | Az oldal színsémája sötét módra vált, háttér és szövegszínek változnak | Az oldal sötét módba vált | Sikeres |
+| T10 | Dark mode átváltás főoldalon | Kapcsold be a dark mode-ot | Az oldal sötét színsémára vált | Az oldal sötét színsémára vált | Sikeres |
+| T11 | Dark mode átváltás cikkoldalon | Nyisd meg a cikket és kapcsold be a dark mode-ot | A cikkoldal sötét színsémára vált | A cikkoldal sötét színsémára vált | Sikeres |
+| T12 | Dark mode megjegyzése újratöltés után | Kapcsold be a dark mode-ot, majd frissítsd az oldalt | Az oldal dark módban marad | Az oldal dark módban maradt | Sikeres |
+| T13 | Dark mode menü színei | Nyisd le a kategória listát dark módban | A lista sötét színekkel jelenik meg | A lista sötét színekkel jelent meg | Sikeres |
+| T14 | Dark mode keresőmező | Kapcsold be a dark mode-ot | A keresőmező háttér és szöveg kontrasztos | A keresőmező jól látható és kontrasztos volt | Sikeres |
+| T15 | Dark mode szöveg olvashatósága | Kapcsold be a dark mode-ot | A szövegek jól olvashatók sötét háttéren | A szövegek jól olvashatók voltak | Sikeres |
+| T16 | Dark mode és világos mód közötti váltás | Kapcsold ki-be a dark mode-ot többször | Az oldal mindig helyesen vált | Az oldal mindig helyesen váltott | Sikeres |
+| T17 | Dark mode mobil nézetben | Kapcsold be dark mode-ot mobil nézetben | A felület sötét színsémát kap | A felület sötét színsémát kapott | Sikeres |
+| T18 | Dark mode ikon állapota | Kapcsold át dark mode-ot | Az ikon állapota változik | Az ikon állapota helyesen változott | Sikeres |
+| T19 | Dark mode cikkek listáján | Nyisd meg a főoldalt dark módban | Minden cikk kártya sötét színsémát használ | Minden cikk kártya sötét színsémát használt | Sikeres |
+| T20 | Dark mode és keresés együtt | Keresés közben kapcsold be a dark mode-ot | A találatok sötét színsémában jelennek meg | A találatok sötét színsémában jelentek meg | Sikeres |
