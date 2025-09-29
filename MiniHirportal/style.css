@@ -269,3 +269,133 @@ body.dark-mode #article-date {
 body.dark-mode #article-category {
     color: rgb(38, 206, 136);
 }
+
+#article-text {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+body.dark-mode #article-text {
+    color: rgb(226, 247, 226);
+}
+
+body.dark-mode #article-title {
+    color: rgb(226, 247, 226);
+}
+
+
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pagination button {
+    margin: 0 5px;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(37, 53, 50);
+}
+
+body.dark-mode #pagination button {
+    color: rgb(226, 247, 226);
+}
+
+#pagination button:hover {
+    text-decoration: underline;
+}
+
+#pagination button.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(104, 196, 177);
+}
+
+body.dark-mode #pagination button.active {
+    color: rgb(99, 214, 191);
+}
+
+#header #homepage {
+    color: rgb(226, 247, 226);
+    font-weight: bold;
+}
+
+.dark-mode-toggle {
+    display: inline-block;
+}
+
+.dark-mode-toggle input {
+    display: none;
+}
+
+.switch-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    background-color: #e2f7e2;
+    border-radius: 10px;
+    position: relative;
+    padding: 0 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.label-left, .label-right {
+    z-index: 2;
+    font-size: 14px;
+    transition: opacity 0.3s, color 0.3s;
+}
+
+.label-left { 
+    opacity: 0; 
+    color: rgb(226, 247, 226);
+}
+.label-right { 
+    opacity: 1; 
+    color: rgb(62, 80, 76);
+}
+
+.toggle-circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(37, 53, 50);
+    border-radius: 20%;
+    top: 5px;
+    left: 5px;
+    transition: left 0.3s, background-color 0.3s;
+    z-index: 1;
+}
+
+#dark-mode-switch:checked + .switch-label {
+    background-color: rgb(62, 80, 76);
+    
+}
+
+#dark-mode-switch:checked + .switch-label .toggle-circle {
+    left: 85px;
+    background-color: rgb(226, 247, 226);;
+}
+
+#dark-mode-switch:checked + .switch-label .label-left {
+    opacity: 1;
+    color: rgb(226, 247, 226);
+    font-weight: bold;
+}
+
+#dark-mode-switch:checked + .switch-label .label-right {
+    opacity: 0;
+}
+
+#empty-category {
+    text-align: center;
+}
